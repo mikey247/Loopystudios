@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.container {
+  width: 87%;
+  margin: auto;
+  overflow: hidden;
+}
+/* SECTION 1 */
+.sec_1 {
+  background-image: url(/loopimages/image-hero.jpg);
+}
+.topdiv1 {
+  display: flex;
+  color: white;
+}
+.topdiv1 h2 {
+  padding-top: 20px;
+}
+.topdiv1 nav {
+  padding-top: 25px;
+  margin-left: 650px;
+}
+.topdiv1 a {
+  text-decoration: none;
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.bottomdiv1 {
+  border: 2px solid white;
+  color: white;
+  width: 45%;
+  font-size: 40px;
+  padding-left: 30px;
+  padding-right: 20px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+/* SECTION 2 */
+.section2 {
+  display: flex;
+  margin-top: 45px;
+  margin-bottom: 100px;
+}
+.section2 img {
+  max-width: 55%;
+}
+.interactive {
+  background-color: white;
+  width: 1000px;
+  font-size: large;
+  position: relative;
+  top: 230px;
+  right: 140px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-bottom: 60px;
+  height: 200px;
+}
+.interactive p {
+  margin-top: 20px;
+}
+
+/* SECTION 3 */
+.topdiv3 {
+  display: flex;
+}
+.topdiv3 a {
+  border: 1px solid black;
+  margin-left: 850px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 20px;
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+}
+
+.middiv3 {
+  margin-top: 20px;
+  display: flex;
+  color: white;
+}
+
+.middiv3 h2 {
+  position: relative;
+  bottom: 120px;
+  left: 30px;
+  width: 40%;
+}
+#na {
+  margin-left: 32px;
+}
+#stv {
+  margin-left: 32px;
+}
+#tg {
+  margin-left: 33px;
+}
+.btmdiv3 {
+  display: flex;
+  color: white;
+}
+.btmdiv3 h2 {
+  position: relative;
+  bottom: 120px;
+  left: 30px;
+  width: 40%;
+}
+#pb {
+  margin-left: 32px;
+}
+#tc {
+  margin-left: 32px;
+}
+#mif {
+  margin-left: 33px;
+}
+footer {
+  background-color: black;
+  color: white;
+}
+.topft {
+  display: flex;
+}
+.topft div {
+  margin-left: 905px;
+  margin-top: 20px;
+}
+.topft h2 {
+  margin-top: 15px;
+}
+.topft a {
+  padding-right: 5px;
+  color: white;
+}
+.btmft {
+  display: flex;
+  margin-top: 20px;
+}
+.btmft nav {
+  margin-top: 15px;
+}
+.btmft a {
+  text-decoration: none;
+  color: white;
+  padding-right: 20px;
+}
+.btmft p {
+  margin-left: 475px;
+  margin-top: 15px;
+}
