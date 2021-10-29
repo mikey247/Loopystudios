@@ -11,6 +11,20 @@ body {
   margin: auto;
   overflow: hidden;
 }
+/*  */
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  float: right;
+}
+#toggle {
+  display: none;
+}
+/*  */
+
+
 /* SECTION 1 */
 .sec_1 {
   background-image: url(/loopimages/image-hero.jpg);
@@ -24,13 +38,19 @@ body {
 }
 .topdiv1 nav {
   padding-top: 25px;
-  margin-left: 650px;
+  margin-left: 500px;
 }
 .topdiv1 a {
   text-decoration: none;
   color: white;
   padding-right: 10px;
   padding-left: 10px;
+  /*  */
+  clear: right;
+  text-decoration: none;
+  margin: 0 10px;
+  line-height: 70px;
+  /*  */
 }
 .bottomdiv1 {
   border: 2px solid white;
@@ -63,6 +83,7 @@ body {
   padding-right: 50px;
   padding-bottom: 60px;
   height: 200px;
+  margin-bottom: 40px;
 }
 .interactive p {
   margin-top: 20px;
@@ -156,4 +177,29 @@ footer {
 .btmft p {
   margin-left: 475px;
   margin-top: 15px;
+}
+
+@media (max-width: 425px){
+  /*  */
+  label {
+    display: block;
+    cursor: pointer;
+  }
+  .menu {
+    text-align: center;
+    /* width: 100px; */
+    display: none;
+  }
+  .menu a {
+    display: block;
+    border-bottom: 1px solid pink;
+    margin: 0;
+  }
+  #toggle:checked + .menu {
+    display: block;
+  }
+  .topdiv1 nav{
+    margin: 0px;
+  } 
+  /*  */
 }
