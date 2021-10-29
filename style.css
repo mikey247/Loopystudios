@@ -184,22 +184,28 @@ footer {
   label {
     display: block;
     cursor: pointer;
+    margin-left: 100px;
+    
   }
   .menu {
     text-align: center;
     /* width: 100px; */
     display: none;
+    
   }
   .menu a {
     display: block;
-    border-bottom: 1px solid pink;
+    border-bottom: 1px solid white;
     margin: 0;
+    
   }
   #toggle:checked + .menu {
     display: block;
   }
   .topdiv1 nav{
     margin: 0px;
+    margin-right: 400px;
+    
   } 
   /*  */
 }
