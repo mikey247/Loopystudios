@@ -244,10 +244,97 @@ footer {
     
    
   }
-  .interactive p {
-    /* margin-top: 20px; */
-    justify-content: space-around;
+
+  .topdiv3 {
+    display: block;
+    
+  }
+  .topdiv3 h1{
+    text-align: center;
+  }
+  .topdiv3 a {
+    text-align: center;
+    width: 600px;
+    position: relative;
+    left: 80px;
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px; 
   }
 
+  .middiv3{
+    display: block;
+  }
+  /* .middiv3 img{
+    height: 400px;
+    max-width: 500px;
+    width: 400px;
+  } */
+  #na {
+    margin-left: 0px;
+  }
+  #stv {
+    margin-left: 0px;
+  }
+  #tg {
+    margin-left: 0px;
+  }
+  .btmdiv3{
+    display: block;
+  }
+  #pb {
+    margin-left: 0px;
+  }
+  #tc {
+    margin-left: 0px;
+  }
+  #mif {
+    margin-left: 0px;
+  }
+
+
+  .topft {
+    display: block;
+  }
+  .topft div {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .topft h2 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .topft a {
+    padding-right: 10px;
+    color: white;
+  }
+  .btmft {
+    display: block;
+    margin-top: 0px;
+  }
+  .btmft nav {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .btmft a {
+    text-decoration: none;
+    color: white;
+    padding-right: 0px;
+    display: block;
+    margin-bottom: 60px;
+    margin-top: 20px;
+  }
+  .btmft p {
+    margin-left: 35px;
+    margin-top: 100px;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .socials{
+    position: absolute;
+    top: 5700px;
+    left: 110px;
+  }
 
 }
