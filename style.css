@@ -327,7 +327,7 @@ footer {
     position: absolute;
     top: 5700px;
     left: 160px;
-    width: 100%;
+    /* width: 100%; */
   }
 
 
@@ -340,7 +340,8 @@ footer {
   .socials {
     position: absolute;
     top: 5700px;
-    width: 100%;
+    /* right: 200px; */
+    /* width: 100%; */
     /* margin-right: 5000px; */
     /* display: flex;
     margin-right: 200px; */
@@ -377,8 +378,9 @@ footer {
   }
   .socials {
     position: absolute;
+    display: flex;
     top: 5700px;
-    left: 110px;
+    left: 120px;
     right: 200px;
     padding-right: 40px;
   }
