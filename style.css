@@ -36,7 +36,6 @@ label {
   padding-top: 20px;
 }
 .topdiv1 nav {
-  padding-top: 25px;
   margin-left: 500px;
 }
 .topdiv1 a {
@@ -147,35 +146,33 @@ footer {
   background-color: black;
   color: white;
 }
-.topft {
+.ft {
   display: flex;
 }
-.topft div {
-  margin-left: 905px;
-  margin-top: 20px;
+.rtft {
+  margin-left: 600px;
+  margin-top: 10px;
 }
-.topft h2 {
-  margin-top: 15px;
+.rtft p {
+  margin-top: 40px;
 }
-.topft a {
-  padding-right: 5px;
+.rtft a {
   color: white;
 }
-.btmft {
-  display: flex;
-  margin-top: 20px;
-}
-.btmft nav {
-  margin-top: 15px;
-}
-.btmft a {
+.ltft a {
   text-decoration: none;
   color: white;
-  padding-right: 20px;
+  font-size: 13px;
+  padding-right: 10px;
 }
-.btmft p {
-  margin-left: 475px;
-  margin-top: 15px;
+.ltft nav {
+  margin-top: 40px;
+}
+.socials {
+  margin-left: 140px;
+}
+.socials a {
+  padding-right: 20px;
 }
 
 @media (max-width: 425px) {
@@ -188,20 +185,23 @@ footer {
   label {
     display: block;
     cursor: pointer;
-    margin-left: 110px;
+    margin-left: 80px;
   }
   .menu {
     text-align: center;
     /* width: 100px; */
     display: none;
+    
   }
   .menu a {
     display: block;
     border-bottom: 1px solid white;
     margin: 0;
+    
   }
   #toggle:checked + .menu {
     display: block;
+    
   }
   .topdiv1 nav {
     margin: 0px;
@@ -248,10 +248,17 @@ footer {
     text-align: center;
     width: 600px;
     position: relative;
-    left: 120px;
+    left: 100px;
+    top: 4050px;
     margin: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
+   
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: larger;
+    /* padding: 20px; */
+
   }
 
   .middiv3 {
@@ -285,111 +292,107 @@ footer {
     margin-left: 0px;
   }
 
-  .topft {
+
+
+  .ft {
     display: block;
   }
-  .topft div {
+
+  .rtft {
     margin-left: 0px;
     margin-top: 0px;
-  }
-  .topft h2 {
-    margin-top: 20px;
     text-align: center;
+    line-height: 50px;
   }
-  .topft a {
-    padding-right: 10px;
+  .rtft p {
+    margin-top: 0px;
+  }
+  .rtft a {
     color: white;
   }
-  .btmft {
-    display: block;
-    margin-top: 0px;
-  }
-  .btmft nav {
-    margin-top: 0px;
+  .ltft {
     text-align: center;
-    font-size: 15px;
   }
-  .btmft a {
+  .ltft a {
     text-decoration: none;
     color: white;
-    padding-right: 5px;
+    font-size: 13px;
     display: block;
-    margin-bottom: 60px;
+    line-height: 50px;
+  }
+  .ltft nav {
     margin-top: 20px;
   }
-  .btmft p {
-    margin-left: 75px;
-    margin-top: 150px;
-    font-size: 12px;
-    margin-bottom: 20px;
-  }
   .socials {
-    position: absolute;
-    top: 5700px;
-    left: 160px;
-    /* width: 100%; */
+    margin-left: 0px;
   }
-
-
-  
-
+  .socials a {
+    padding-right: 20px;
+  }
 }
-@media (max-width: 375px) {
- 
+ @media (max-width: 375px) {
+  label {
+    display: block;
+    cursor: pointer;
+    margin-left: 30px;
+  }
+   
+   .middiv3 img {
+    margin-left: 20px;
+  }
+  .btmdiv3 img{
+    margin-left: 20px;
+  }
 
-  .socials {
-    position: absolute;
-    top: 5700px;
-    /* right: 200px; */
-    /* width: 100%; */
-    /* margin-right: 5000px; */
-    /* display: flex;
-    margin-right: 200px; */
-  }
-  
-  .btmft p {
-    margin-top: 150px;
-    font-size: 10px;
-    margin-bottom: 20px;
-  }
-  .topft div{
-    margin-right: 40px;
-  }
+  .topdiv3 a {
+    left: 75px;
+    }
+
 }
 
 
 
 @media (max-width: 320px) {
-  .middiv3 img{
-    margin-left: 10px;
-  }
-  .btmdiv3 img{
-    margin-left: 10px;
-  }
-  .topdiv3 a {
-    text-align: center;
-    width: 600px;
-    position: relative;
-    left: 80px;
-    top: 10px;
-    margin: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .socials {
-    position: absolute;
-    display: flex;
-    top: 5700px;
-    left: 120px;
-    right: 200px;
-    padding-right: 40px;
-  }
-  .btmft p {
-    margin-left: 50px;
-    margin-top: 150px;
-    font-size: 10px;
-    margin-bottom: 20px;
+  label {
+    display: block;
+    cursor: pointer;
+    margin-left: 0px;
   }
   
+  .interactive{
+    width: 75%;
+    height: 150px;
+  }
+
+  .topdiv3 a {
+   
+    left: 56px;
+    top: 4110px;
+  }
+
+  .middiv3 img {
+    margin-left: 0px;
+  }
+  .btmdiv3 img{
+    margin-left: 0px;
+  }
+  .rtft p {
+    font-size: 12px;
+  }
+
+  .middiv3 h2 {
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+    width: 40%;
+  }
+
+  .btmdiv3 h2{
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+    width: 40%;
+  }
+
 
 }
